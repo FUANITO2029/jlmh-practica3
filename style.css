@@ -1,0 +1,76 @@
+* {
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box; 
+}
+
+.padre {
+    display: flex;
+    flex-flow: column nowrap;
+
+}
+
+.header {
+    background-color: #000;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+    .menu {
+        background-color: darkgoldenrod;
+        display: flex;
+        flex-flow: row nowrap;
+        height: 100%;
+        align-items: center;
+    }
+
+        .logo {
+            background-color: darksalmon;
+            flex: 1 1 auto;
+            height: 30px;
+        }
+        .nav {
+            background-color: steelblue;
+            flex: 5 1 auto;
+            height: 30px;
+        }
+        .social {
+            background-color: aqua;
+            flex: 1 1 auto;
+            height: 30px;
+        }
+
+    .texto-principal {
+        background-color: wheat;
+    }
+        h1 {
+            background-color: snow;
+        }
+
+.section {
+    background-color: aqua;
+}
+    .articulos {
+        background-color: cornflowerblue;
+    }
+        .article {
+            background-color: rgb(59, 159, 121);
+        }
+
+        .navegacion {
+            background-color: tan;
+        }
+    
+    .aside {
+        background-color: violet;
+    }
+        .publicidad {
+            background-color: slategray;
+        }
+
+.footer {
+    background-color: brown;
+}
+    .pie {
+        background: red;
+    }
