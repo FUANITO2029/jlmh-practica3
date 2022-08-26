@@ -31,24 +31,23 @@ body{
         flex-flow: row nowrap;
         height: 100px;
         align-items: center;
-        border-bottom: 1px solid rgb(222, 234, 256);
+        border-bottom: 1px solid rgb(255, 255, 255, .5);
     }
 
         .logo {
             flex: 1 1 auto;
-            height: 30px;
         }
             .logo a{
                 color: #fff;
                 font-size: 30px;;
             }
             .logo a:hover{
-                color: yellow;
+                color: #c8e46b;
             }
 
         .nav {
             flex: 5 1 auto;
-            height: 30px;
+            text-align:unset;
         }
             .nav a{
                 color: #fff;
@@ -58,7 +57,7 @@ body{
                 letter-spacing: 2px;
             }
             .nav a:hover{
-                color: rgb(129, 115, 239);
+                color: #c8e46b;
             }
         .social {
             display: flex;
@@ -98,20 +97,20 @@ body{
         }
     
     .aside {
-        background-color: violet;
+        background-color: rgb(255, 255, 255);
         flex: 1 1 auto;
     }
         .publicidad {
-            background-color: slategray;
+            background-color: rgb(178, 212, 245);
         }
 
 .footer {
-    background-color: brown;
+    background-color: rgb(255, 254, 254);
     display: flex;
     justify-content: center;
 }
     .pie {
-        background: red;
+        color:rgb(255, 255, 255);
         width: 300px;
 
     }
